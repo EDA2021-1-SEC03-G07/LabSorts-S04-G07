@@ -129,7 +129,7 @@ while True:
         result = controller.sortBooks(catalog, int(size))
         print("Para la muestra de", size, " elementos, el tiempo (mseg) es: ",
                                           str(result[0]))
-        print(result[1])
+        printResults(result[1])
 
     else:
         sys.exit(0)
